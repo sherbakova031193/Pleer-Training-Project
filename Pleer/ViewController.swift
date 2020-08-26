@@ -10,11 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var label: UILabel!
+    
+    var trackTitle = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        imageView.image = UIImage(named: trackTitle)
+        label.text = trackTitle
+        label.numberOfLines = 0
+        
     }
 
-
 }
-

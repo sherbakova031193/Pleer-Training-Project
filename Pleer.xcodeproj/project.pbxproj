@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		579DEC222403012E00BFB6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DEC212403012E00BFB6EF /* AppDelegate.swift */; };
 		579DEC242403012E00BFB6EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DEC232403012E00BFB6EF /* SceneDelegate.swift */; };
-		579DEC262403012E00BFB6EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DEC252403012E00BFB6EF /* ViewController.swift */; };
 		579DEC292403012E00BFB6EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579DEC272403012E00BFB6EF /* Main.storyboard */; };
 		579DEC2B2403013500BFB6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579DEC2A2403013500BFB6EF /* Assets.xcassets */; };
 		579DEC2E2403013500BFB6EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579DEC2C2403013500BFB6EF /* LaunchScreen.storyboard */; };
+		579DEC36240301C400BFB6EF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DEC35240301C400BFB6EF /* TableViewController.swift */; };
+		579DEC382403082A00BFB6EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579DEC372403082A00BFB6EF /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		579DEC1E2403012E00BFB6EF /* Pleer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pleer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		579DEC212403012E00BFB6EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		579DEC232403012E00BFB6EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		579DEC252403012E00BFB6EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		579DEC282403012E00BFB6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		579DEC2A2403013500BFB6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579DEC2D2403013500BFB6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		579DEC2F2403013500BFB6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579DEC35240301C400BFB6EF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		579DEC372403082A00BFB6EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				579DEC212403012E00BFB6EF /* AppDelegate.swift */,
 				579DEC232403012E00BFB6EF /* SceneDelegate.swift */,
-				579DEC252403012E00BFB6EF /* ViewController.swift */,
+				579DEC35240301C400BFB6EF /* TableViewController.swift */,
+				579DEC372403082A00BFB6EF /* ViewController.swift */,
 				579DEC272403012E00BFB6EF /* Main.storyboard */,
 				579DEC2A2403013500BFB6EF /* Assets.xcassets */,
 				579DEC2C2403013500BFB6EF /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579DEC262403012E00BFB6EF /* ViewController.swift in Sources */,
 				579DEC222403012E00BFB6EF /* AppDelegate.swift in Sources */,
+				579DEC36240301C400BFB6EF /* TableViewController.swift in Sources */,
+				579DEC382403082A00BFB6EF /* ViewController.swift in Sources */,
 				579DEC242403012E00BFB6EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "S-herbakova-Elizaveta-Nikolaevna.Pleer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "S-herbakova-Elizaveta-Nikolaevna.Pleer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
